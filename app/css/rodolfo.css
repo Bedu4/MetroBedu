@@ -1,6 +1,32 @@
 
 
-#top_navegador {
+.text_center {
 	text-align: center;
-	background-color: gray;
+}
+
+#drag_drop{
+  width:50%;
+  height:200px;
+}
+#drag_drop > div {
+	height:200px;
+	max-height:200px;
+	overflow:hidden;
+	resize:both;
+	position:relative;
+}
+#drag_drop > div:after{
+	content:'';
+	display:block;
+	position: absolute;
+	bottom:0;
+	right:0;
+	width:16px;
+	height:16px;
+	background-color:white;
+	pointer-events:none;
+	visibility:visible;
+	background-position:center;
+	background-size:cover;
+	background-image: url('http://www.iconarchive.com/download/i49352/designcontest/vintage/Hand.ico');
 }
