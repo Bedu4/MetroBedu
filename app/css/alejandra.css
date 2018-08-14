@@ -8,24 +8,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: 20px;
+  width: 25%;
 }
 .divGeneralHeaderSonImage{
-  width: 50%;
+  width: 10%;
 }
 .divGeneralHeaderSonImageRigth{
   width: 40%
 }
 .divGeneralHeaderSonImageLeft{
+  float: right;
   width: 40%;
 }
 .divGeneralHeaderSonLeft{
   font-size: 40px;
-  float: right;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 900px;
+  padding-left: 30%;
 }
 .generalText{
   display: flex;
@@ -34,8 +34,7 @@
 
 }
 .generalTextOne,.generalTextTwo,.generalTextThree{
-  margin-right: 300px;
-  margin-left: 200px;
+  width: 33%;
   text-align: center;
 }
 .generalTextBig1,.generalTextBig2,.generalTextBig3{
