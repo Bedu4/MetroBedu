@@ -1,0 +1,18 @@
+.menu {
+	display: inline-block;
+}
+.segundo_bloque {
+	display: flex;
+}
+.segundo_linea {
+	width: 33%;
+	text-align: center;
+	padding: 50px;
+
+}
+h1 {
+	text-align: center;
+	background: url(../img/autumn.jpg);
+	padding: 30px;
+	color: white;
+}
