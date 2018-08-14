@@ -1,5 +1,4 @@
 nav {
-   
     background-color: orange; 
     display: flex;
 }
@@ -15,8 +14,7 @@ nav p{
 .text{
     width: 33%;
     height: 33%;
-    text-align: center;
-   
+    text-align: center;   
 }
 .flex{
     display: flex;
@@ -31,7 +29,6 @@ nav p{
     height: 100%;
     padding: 50px;
     text-align: center;
-
 }
 .text3{
     text-align: right;
