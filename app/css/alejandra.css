@@ -1,0 +1,44 @@
+.divGeneralHeader{
+  display: flex;
+  justify-content: space-around;
+  background-color: orange;
+}
+.divGeneralHeaderSon{
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+}
+.divGeneralHeaderSonImage{
+  width: 10%;
+}
+.divGeneralHeaderSonImageRigth{
+  width: 40%
+}
+.divGeneralHeaderSonImageLeft{
+  float: right;
+  width: 40%;
+}
+.divGeneralHeaderSonLeft{
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 30%;
+}
+.generalText{
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+.generalTextOne,.generalTextTwo,.generalTextThree{
+  width: 33%;
+  text-align: center;
+}
+.generalTextBig1,.generalTextBig2,.generalTextBig3{
+  font-size: 50px;
+}
+.generalTextSmall1,.generalTextSmall2,.generalTextSmall3{
+  font-size: 15px;
+}
