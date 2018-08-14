@@ -1,0 +1,62 @@
+/*tags*/
+section {
+	border-style:solid;
+}
+
+
+/*classes*/
+.center {
+	text-align: center;
+}
+
+.background {
+	background-image: url(../img/diego_background.png);
+	color: white;
+	width: 100%;
+	height: 100%;
+	padding: 50px;
+}
+
+.flex {
+	display: flex;
+}
+
+.box1 {
+	width: 30%;
+	text-align: center;
+	margin: 50px;
+}
+
+.box2 {
+	margin: 30px;
+}
+
+.imagen {
+	width: 60%;
+	text-align: center;
+}
+
+.texto {
+	width: 40%;
+	text-align: right;
+	margin-right: 200px;
+}
+
+.rectangle {
+	width: 60%;
+	height: 100px;
+	border-style:solid;
+	border-color: red;
+	margin: auto;
+	background: blue;
+}
+
+.shape {
+	padding: 50px;
+}
+
+.shape_text {
+	text-align: right;
+	position: relative;
+	top: 60px;
+}
